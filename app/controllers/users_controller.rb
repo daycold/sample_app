@@ -3,16 +3,28 @@ class UsersController < ApplicationController
   before_action :correct_user,   only: [:edit, :update]
   before_action :admin_user,     only: :destroy
 
+
   def new
     @user = User.new
   end
 
   def index
     @users = User.paginate(page: params[:type])
+    if like_session?
+      like
+      session[:like_flag] = 'f'
+    end
+    tocomment
   end
 
   def show
     @user = User.find(params[:id])
+    @microposts = @user.microposts.paginate(page: params[:page])
+    if like_session?
+      like
+      session[:like_flag] = 'f'
+    end
+    tocomment
   end
 
   def create
@@ -33,17 +45,9 @@ class UsersController < ApplicationController
   def update
     @user = User.find(params[:id])
     if @user.update_attributes(user_params)
-      #
+      redirect_to root_path
     else
-     render 'edit'
-    end
-  end
-
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = "Please log in."
-      redirect_to login_url
+      render 'edit'
     end
   end
 
@@ -57,8 +61,41 @@ class UsersController < ApplicationController
     flash[:success] = "User deleted"
     redirect_to users_url
   end
+
+  def following
+    @title  = "Following"
+    @user   = User.find(params[:id])
+    @users  = @user.following.paginate(page: params[:page])
+    render    'show_follow'
+  end
+
+  def followers
+    @title  = "Followers"
+    @user   = User.find(params[:id])
+    @users  = @user.followers.paginate(page: params[:page])
+    render    'show_follow'
+  end
+
+  def tocomment
+    if session[:comment_flag] =='T' && !params[:micropost].nil?
+      comment
+      session[:comment_flag] = 'f'
+    end
+  end
+
   private
   def user_params
-    params.require(:user).permit(:name, :email, :password, :password_confirmation)
+    params.require(:user).permit(:name, :sex, :email,:local, :password, :password_confirmation)
   end
+
+  def like
+    micropost = Micropost.find_by(id: params[:micropost])
+    Micropost.dolike(current_user,micropost)
+  end
+
+  def comment
+      micropost=Micropost.find_by(id: params[:micropost])
+      micropost.comment_create(current_user,params[:comment])
+  end
+
 end

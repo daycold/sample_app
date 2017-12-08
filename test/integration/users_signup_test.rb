@@ -31,8 +31,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     user = assigns(:user)
     assert_not user.activated?
     # 尝试在激活之前登录
-    log_in_as(user)
-    assert_not is_logged_in?
     # 激活令牌无效
     get edit_account_activation_path("invalid token")
     assert_not is_logged_in?

@@ -1,0 +1,7 @@
+<div id="like_form">
+  <% if micropost.liking?(current_user) %>
+    <%= render "unlike" %>
+  <% else %>
+    <%= render 'like' %>
+  <% end %>
+</div>

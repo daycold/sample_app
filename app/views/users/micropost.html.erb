@@ -1,0 +1,12 @@
+<%= provide(:title,@micropost.user.name) %>
+<div class="row">
+  <aside class="col-md-4">
+    <h1>
+      <%= gravatar_for @micropsot.user %>
+      <%= @micropost.user.name %><br />
+      <%= @micropost.content %><br />
+    </h1>
+  </aside>
+  <div class="col-md-8">
+  </div>
+</div>

@@ -11,7 +11,53 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171128075715) do
+ActiveRecord::Schema.define(version: 20171207021646) do
+
+  create_table "miccomments", force: :cascade do |t|
+    t.integer  "micropost_id"
+    t.integer  "commenter_id"
+    t.integer  "comment_to"
+    t.text     "content"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  add_index "miccomments", ["comment_to"], name: "index_miccomments_on_comment_to"
+  add_index "miccomments", ["commenter_id"], name: "index_miccomments_on_commenter_id"
+  add_index "miccomments", [nil], name: "index_miccomments_on_micropst_id"
+
+  create_table "miclikers", force: :cascade do |t|
+    t.integer  "liker_id"
+    t.integer  "micropost_id"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  add_index "miclikers", ["liker_id", "micropost_id"], name: "index_miclikers_on_liker_id_and_micropost_id"
+  add_index "miclikers", ["liker_id"], name: "index_miclikers_on_liker_id"
+  add_index "miclikers", ["micropost_id"], name: "index_miclikers_on_micropost_id"
+
+  create_table "microposts", force: :cascade do |t|
+    t.text     "content"
+    t.integer  "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string   "picture"
+  end
+
+  add_index "microposts", ["user_id", "created_at"], name: "index_microposts_on_user_id_and_created_at"
+  add_index "microposts", ["user_id"], name: "index_microposts_on_user_id"
+
+  create_table "relationships", force: :cascade do |t|
+    t.integer  "follower_id"
+    t.integer  "followed_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  add_index "relationships", ["followed_id"], name: "index_relationships_on_followed_id"
+  add_index "relationships", ["follower_id", "followed_id"], name: "index_relationships_on_follower_id_and_followed_id", unique: true
+  add_index "relationships", ["follower_id"], name: "index_relationships_on_follower_id"
 
   create_table "users", force: :cascade do |t|
     t.string   "name"
@@ -26,6 +72,8 @@ ActiveRecord::Schema.define(version: 20171128075715) do
     t.datetime "activated_at"
     t.string   "reset_digest"
     t.datetime "reset_sent_at"
+    t.string   "local"
+    t.string   "sex"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

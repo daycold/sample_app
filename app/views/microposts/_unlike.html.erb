@@ -1,0 +1,3 @@
+<%= form_for(micropost.miclikers.find_by(liker_id: current_user.id), html: { method: :delete  }) do |f| %>
+  <%= f.submit "unlike", class="btn" %>
+<% end %>

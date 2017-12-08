@@ -4,6 +4,8 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+20140707111715_create_widgets.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/db/migrate/20140707111715_create_widgets.rb	1;"	F
+20140707111715_create_widgets.rb	ruby-getting-started/db/migrate/20140707111715_create_widgets.rb	1;"	F
 20171123062207_create_users.rb	/Users/stefanliu/workspace/sample_app/db/migrate/20171123062207_create_users.rb	1;"	F
 20171123062207_create_users.rb	db/migrate/20171123062207_create_users.rb	1;"	F
 20171123075015_add_index_to_users_email.rb	/Users/stefanliu/workspace/sample_app/db/migrate/20171123075015_add_index_to_users_email.rb	1;"	F
@@ -19,16 +21,24 @@
 20171128075715_add_reset_to_users.rb	/Users/stefanliu/workspace/sample_app/db/migrate/20171128075715_add_reset_to_users.rb	1;"	F
 20171128075715_add_reset_to_users.rb	db/migrate/20171128075715_add_reset_to_users.rb	1;"	F
 404.html	/Users/stefanliu/workspace/sample_app/public/404.html	1;"	F
+404.html	/Users/stefanliu/workspace/sample_app/ruby-getting-started/public/404.html	1;"	F
 404.html	public/404.html	1;"	F
+404.html	ruby-getting-started/public/404.html	1;"	F
 422.html	/Users/stefanliu/workspace/sample_app/public/422.html	1;"	F
+422.html	/Users/stefanliu/workspace/sample_app/ruby-getting-started/public/422.html	1;"	F
 422.html	public/422.html	1;"	F
+422.html	ruby-getting-started/public/422.html	1;"	F
 500.html	/Users/stefanliu/workspace/sample_app/public/500.html	1;"	F
+500.html	/Users/stefanliu/workspace/sample_app/ruby-getting-started/public/500.html	1;"	F
 500.html	public/500.html	1;"	F
+500.html	ruby-getting-started/public/500.html	1;"	F
 AccountActivationsController	/Users/stefanliu/workspace/sample_app/app/controllers/account_activations_controller.rb	/^class AccountActivationsController < ApplicationController$/;"	c
 AccountActivationsController	app/controllers/account_activations_controller.rb	/^class AccountActivationsController < ApplicationController$/;"	c
 AccountActivationsHelper	/Users/stefanliu/workspace/sample_app/app/helpers/account_activations_helper.rb	/^module AccountActivationsHelper$/;"	m
 AccountActivationsHelper	app/helpers/account_activations_helper.rb	/^module AccountActivationsHelper$/;"	m
+ActiveSupport	/Users/stefanliu/workspace/sample_app/ruby-getting-started/test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
 ActiveSupport	/Users/stefanliu/workspace/sample_app/test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+ActiveSupport	ruby-getting-started/test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
 ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
 AddActivationToUsers	/Users/stefanliu/workspace/sample_app/db/migrate/20171128024616_add_activation_to_users.rb	/^class AddActivationToUsers < ActiveRecord::Migration$/;"	c
 AddActivationToUsers	db/migrate/20171128024616_add_activation_to_users.rb	/^class AddActivationToUsers < ActiveRecord::Migration$/;"	c
@@ -43,19 +53,29 @@ AddRememberDigestToUsers	db/migrate/20171127045336_add_remember_digest_to_users.
 AddResetToUsers	/Users/stefanliu/workspace/sample_app/db/migrate/20171128075715_add_reset_to_users.rb	/^class AddResetToUsers < ActiveRecord::Migration$/;"	c
 AddResetToUsers	db/migrate/20171128075715_add_reset_to_users.rb	/^class AddResetToUsers < ActiveRecord::Migration$/;"	c
 Application	/Users/stefanliu/workspace/sample_app/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:SampleApp
+Application	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:RubyGettingStarted
 Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:SampleApp
+Application	ruby-getting-started/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:RubyGettingStarted
 ApplicationController	/Users/stefanliu/workspace/sample_app/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationController	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationController	ruby-getting-started/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	/Users/stefanliu/workspace/sample_app/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationHelper	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
 ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationHelper	ruby-getting-started/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
 ApplicationMailer	/Users/stefanliu/workspace/sample_app/app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
 ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
 CreateUsers	/Users/stefanliu/workspace/sample_app/db/migrate/20171123062207_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
 CreateUsers	db/migrate/20171123062207_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+CreateWidgets	/Users/stefanliu/workspace/sample_app/ruby-getting-started/db/migrate/20140707111715_create_widgets.rb	/^class CreateWidgets < ActiveRecord::Migration$/;"	c
+CreateWidgets	ruby-getting-started/db/migrate/20140707111715_create_widgets.rb	/^class CreateWidgets < ActiveRecord::Migration$/;"	c
 PasswordResetsController	/Users/stefanliu/workspace/sample_app/app/controllers/password_resets_controller.rb	/^class PasswordResetsController < ApplicationController$/;"	c
 PasswordResetsController	app/controllers/password_resets_controller.rb	/^class PasswordResetsController < ApplicationController$/;"	c
 PasswordResetsHelper	/Users/stefanliu/workspace/sample_app/app/helpers/password_resets_helper.rb	/^module PasswordResetsHelper$/;"	m
 PasswordResetsHelper	app/helpers/password_resets_helper.rb	/^module PasswordResetsHelper$/;"	m
+RubyGettingStarted	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/application.rb	/^module RubyGettingStarted$/;"	m
+RubyGettingStarted	ruby-getting-started/config/application.rb	/^module RubyGettingStarted$/;"	m
 SampleApp	/Users/stefanliu/workspace/sample_app/config/application.rb	/^module SampleApp$/;"	m
 SampleApp	config/application.rb	/^module SampleApp$/;"	m
 SessionsController	/Users/stefanliu/workspace/sample_app/app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
@@ -92,6 +112,26 @@ UsersLoginTest	/Users/stefanliu/workspace/sample_app/test/integration/users_logi
 UsersLoginTest	test/integration/users_login_test.rb	/^class UsersLoginTest < ActionDispatch::IntegrationTest$/;"	c
 UsersSignupTest	/Users/stefanliu/workspace/sample_app/test/integration/users_signup_test.rb	/^class UsersSignupTest < ActionDispatch::IntegrationTest$/;"	c
 UsersSignupTest	test/integration/users_signup_test.rb	/^class UsersSignupTest < ActionDispatch::IntegrationTest$/;"	c
+WelcomeController	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/welcome_controller.rb	/^class WelcomeController < ApplicationController$/;"	c
+WelcomeController	ruby-getting-started/app/controllers/welcome_controller.rb	/^class WelcomeController < ApplicationController$/;"	c
+WelcomeControllerTest	/Users/stefanliu/workspace/sample_app/ruby-getting-started/test/controllers/welcome_controller_test.rb	/^class WelcomeControllerTest < ActionController::TestCase$/;"	c
+WelcomeControllerTest	ruby-getting-started/test/controllers/welcome_controller_test.rb	/^class WelcomeControllerTest < ActionController::TestCase$/;"	c
+WelcomeHelper	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/helpers/welcome_helper.rb	/^module WelcomeHelper$/;"	m
+WelcomeHelper	ruby-getting-started/app/helpers/welcome_helper.rb	/^module WelcomeHelper$/;"	m
+WelcomeHelperTest	/Users/stefanliu/workspace/sample_app/ruby-getting-started/test/helpers/welcome_helper_test.rb	/^class WelcomeHelperTest < ActionView::TestCase$/;"	c
+WelcomeHelperTest	ruby-getting-started/test/helpers/welcome_helper_test.rb	/^class WelcomeHelperTest < ActionView::TestCase$/;"	c
+Widget	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/models/widget.rb	/^class Widget < ActiveRecord::Base$/;"	c
+Widget	ruby-getting-started/app/models/widget.rb	/^class Widget < ActiveRecord::Base$/;"	c
+WidgetTest	/Users/stefanliu/workspace/sample_app/ruby-getting-started/test/models/widget_test.rb	/^class WidgetTest < ActiveSupport::TestCase$/;"	c
+WidgetTest	ruby-getting-started/test/models/widget_test.rb	/^class WidgetTest < ActiveSupport::TestCase$/;"	c
+WidgetsController	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/widgets_controller.rb	/^class WidgetsController < ApplicationController$/;"	c
+WidgetsController	ruby-getting-started/app/controllers/widgets_controller.rb	/^class WidgetsController < ApplicationController$/;"	c
+WidgetsControllerTest	/Users/stefanliu/workspace/sample_app/ruby-getting-started/test/controllers/widgets_controller_test.rb	/^class WidgetsControllerTest < ActionController::TestCase$/;"	c
+WidgetsControllerTest	ruby-getting-started/test/controllers/widgets_controller_test.rb	/^class WidgetsControllerTest < ActionController::TestCase$/;"	c
+WidgetsHelper	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/helpers/widgets_helper.rb	/^module WidgetsHelper$/;"	m
+WidgetsHelper	ruby-getting-started/app/helpers/widgets_helper.rb	/^module WidgetsHelper$/;"	m
+WidgetsHelperTest	/Users/stefanliu/workspace/sample_app/ruby-getting-started/test/helpers/widgets_helper_test.rb	/^class WidgetsHelperTest < ActionView::TestCase$/;"	c
+WidgetsHelperTest	ruby-getting-started/test/helpers/widgets_helper_test.rb	/^class WidgetsHelperTest < ActionView::TestCase$/;"	c
 about	/Users/stefanliu/workspace/sample_app/app/controllers/static_pages_controller.rb	/^  def about$/;"	f	class:StaticPagesController
 about	app/controllers/static_pages_controller.rb	/^  def about$/;"	f	class:StaticPagesController
 account_activation	/Users/stefanliu/workspace/sample_app/app/mailers/user_mailer.rb	/^  def account_activation(user)$/;"	f	class:UserMailer
@@ -105,25 +145,41 @@ account_activations_helper.rb	app/helpers/account_activations_helper.rb	1;"	F
 activate	/Users/stefanliu/workspace/sample_app/app/models/user.rb	/^  def activate$/;"	f	class:User
 activate	app/models/user.rb	/^  def activate$/;"	f	class:User
 application.js	/Users/stefanliu/workspace/sample_app/app/assets/javascripts/application.js	1;"	F
+application.js	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/assets/javascripts/application.js	1;"	F
 application.js	app/assets/javascripts/application.js	1;"	F
+application.js	ruby-getting-started/app/assets/javascripts/application.js	1;"	F
 application.rb	/Users/stefanliu/workspace/sample_app/config/application.rb	1;"	F
+application.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/application.rb	1;"	F
 application.rb	config/application.rb	1;"	F
+application.rb	ruby-getting-started/config/application.rb	1;"	F
 application_controller.rb	/Users/stefanliu/workspace/sample_app/app/controllers/application_controller.rb	1;"	F
+application_controller.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/application_controller.rb	1;"	F
 application_controller.rb	app/controllers/application_controller.rb	1;"	F
+application_controller.rb	ruby-getting-started/app/controllers/application_controller.rb	1;"	F
 application_helper.rb	/Users/stefanliu/workspace/sample_app/app/helpers/application_helper.rb	1;"	F
+application_helper.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/helpers/application_helper.rb	1;"	F
 application_helper.rb	app/helpers/application_helper.rb	1;"	F
+application_helper.rb	ruby-getting-started/app/helpers/application_helper.rb	1;"	F
 application_mailer.rb	/Users/stefanliu/workspace/sample_app/app/mailers/application_mailer.rb	1;"	F
 application_mailer.rb	app/mailers/application_mailer.rb	1;"	F
 assets.rb	/Users/stefanliu/workspace/sample_app/config/initializers/assets.rb	1;"	F
+assets.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/initializers/assets.rb	1;"	F
 assets.rb	config/initializers/assets.rb	1;"	F
+assets.rb	ruby-getting-started/config/initializers/assets.rb	1;"	F
 authenticated?	/Users/stefanliu/workspace/sample_app/app/models/user.rb	/^  def authenticated?(attribute,token)$/;"	f	class:User
 authenticated?	app/models/user.rb	/^  def authenticated?(attribute,token)$/;"	f	class:User
 backtrace_silencers.rb	/Users/stefanliu/workspace/sample_app/config/initializers/backtrace_silencers.rb	1;"	F
+backtrace_silencers.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/initializers/backtrace_silencers.rb	1;"	F
 backtrace_silencers.rb	config/initializers/backtrace_silencers.rb	1;"	F
+backtrace_silencers.rb	ruby-getting-started/config/initializers/backtrace_silencers.rb	1;"	F
 boot.rb	/Users/stefanliu/workspace/sample_app/config/boot.rb	1;"	F
+boot.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/boot.rb	1;"	F
 boot.rb	config/boot.rb	1;"	F
+boot.rb	ruby-getting-started/config/boot.rb	1;"	F
 bundle	/Users/stefanliu/workspace/sample_app/bin/bundle	1;"	F
+bundle	/Users/stefanliu/workspace/sample_app/ruby-getting-started/bin/bundle	1;"	F
 bundle	bin/bundle	1;"	F
+bundle	ruby-getting-started/bin/bundle	1;"	F
 change	/Users/stefanliu/workspace/sample_app/db/migrate/20171123062207_create_users.rb	/^  def change$/;"	f	class:CreateUsers
 change	/Users/stefanliu/workspace/sample_app/db/migrate/20171123075015_add_index_to_users_email.rb	/^  def change$/;"	f	class:AddIndexToUsersEmail
 change	/Users/stefanliu/workspace/sample_app/db/migrate/20171123081202_add_password_digest_to_users.rb	/^  def change$/;"	f	class:AddPasswordDigestToUsers
@@ -131,6 +187,7 @@ change	/Users/stefanliu/workspace/sample_app/db/migrate/20171127045336_add_remem
 change	/Users/stefanliu/workspace/sample_app/db/migrate/20171127082927_add_admin_to_users.rb	/^  def change$/;"	f	class:AddAdminToUsers
 change	/Users/stefanliu/workspace/sample_app/db/migrate/20171128024616_add_activation_to_users.rb	/^  def change$/;"	f	class:AddActivationToUsers
 change	/Users/stefanliu/workspace/sample_app/db/migrate/20171128075715_add_reset_to_users.rb	/^  def change$/;"	f	class:AddResetToUsers
+change	/Users/stefanliu/workspace/sample_app/ruby-getting-started/db/migrate/20140707111715_create_widgets.rb	/^  def change$/;"	f	class:CreateWidgets
 change	db/migrate/20171123062207_create_users.rb	/^  def change$/;"	f	class:CreateUsers
 change	db/migrate/20171123075015_add_index_to_users_email.rb	/^  def change$/;"	f	class:AddIndexToUsersEmail
 change	db/migrate/20171123081202_add_password_digest_to_users.rb	/^  def change$/;"	f	class:AddPasswordDigestToUsers
@@ -138,16 +195,23 @@ change	db/migrate/20171127045336_add_remember_digest_to_users.rb	/^  def change$
 change	db/migrate/20171127082927_add_admin_to_users.rb	/^  def change$/;"	f	class:AddAdminToUsers
 change	db/migrate/20171128024616_add_activation_to_users.rb	/^  def change$/;"	f	class:AddActivationToUsers
 change	db/migrate/20171128075715_add_reset_to_users.rb	/^  def change$/;"	f	class:AddResetToUsers
+change	ruby-getting-started/db/migrate/20140707111715_create_widgets.rb	/^  def change$/;"	f	class:CreateWidgets
+checl_expiration	/Users/stefanliu/workspace/sample_app/app/controllers/password_resets_controller.rb	/^    def checl_expiration$/;"	f	class:PasswordResetsController
+checl_expiration	app/controllers/password_resets_controller.rb	/^    def checl_expiration$/;"	f	class:PasswordResetsController
 cookies_serializer.rb	/Users/stefanliu/workspace/sample_app/config/initializers/cookies_serializer.rb	1;"	F
+cookies_serializer.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/initializers/cookies_serializer.rb	1;"	F
 cookies_serializer.rb	config/initializers/cookies_serializer.rb	1;"	F
+cookies_serializer.rb	ruby-getting-started/config/initializers/cookies_serializer.rb	1;"	F
 correct_user	/Users/stefanliu/workspace/sample_app/app/controllers/users_controller.rb	/^  def correct_user$/;"	f	class:UsersController
 correct_user	app/controllers/users_controller.rb	/^  def correct_user$/;"	f	class:UsersController
 create	/Users/stefanliu/workspace/sample_app/app/controllers/password_resets_controller.rb	/^  def create$/;"	f	class:PasswordResetsController
 create	/Users/stefanliu/workspace/sample_app/app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
 create	/Users/stefanliu/workspace/sample_app/app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+create	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/widgets_controller.rb	/^  def create$/;"	f	class:WidgetsController
 create	app/controllers/password_resets_controller.rb	/^  def create$/;"	f	class:PasswordResetsController
 create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
 create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+create	ruby-getting-started/app/controllers/widgets_controller.rb	/^  def create$/;"	f	class:WidgetsController
 create_activation_digest	/Users/stefanliu/workspace/sample_app/app/models/user.rb	/^    def create_activation_digest$/;"	f	class:User
 create_activation_digest	app/models/user.rb	/^    def create_activation_digest$/;"	f	class:User
 create_reset_digest	/Users/stefanliu/workspace/sample_app/app/models/user.rb	/^  def create_reset_digest$/;"	f	class:User
@@ -158,10 +222,14 @@ current_user?	/Users/stefanliu/workspace/sample_app/app/helpers/sessions_helper.
 current_user?	app/helpers/sessions_helper.rb	/^  def current_user?(user)$/;"	f	class:SessionsHelper
 destroy	/Users/stefanliu/workspace/sample_app/app/controllers/sessions_controller.rb	/^    def destroy$/;"	f	class:SessionsController
 destroy	/Users/stefanliu/workspace/sample_app/app/controllers/users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+destroy	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/widgets_controller.rb	/^  def destroy$/;"	f	class:WidgetsController
 destroy	app/controllers/sessions_controller.rb	/^    def destroy$/;"	f	class:SessionsController
 destroy	app/controllers/users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+destroy	ruby-getting-started/app/controllers/widgets_controller.rb	/^  def destroy$/;"	f	class:WidgetsController
 development.rb	/Users/stefanliu/workspace/sample_app/config/environments/development.rb	1;"	F
+development.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/environments/development.rb	1;"	F
 development.rb	config/environments/development.rb	1;"	F
+development.rb	ruby-getting-started/config/environments/development.rb	1;"	F
 digest	/Users/stefanliu/workspace/sample_app/app/models/user.rb	/^  def User.digest(string)$/;"	F	class:User
 digest	app/models/user.rb	/^  def User.digest(string)$/;"	F	class:User
 downcase_email	/Users/stefanliu/workspace/sample_app/app/models/user.rb	/^    def downcase_email$/;"	f	class:User
@@ -169,19 +237,27 @@ downcase_email	app/models/user.rb	/^    def downcase_email$/;"	f	class:User
 edit	/Users/stefanliu/workspace/sample_app/app/controllers/account_activations_controller.rb	/^  def edit$/;"	f	class:AccountActivationsController
 edit	/Users/stefanliu/workspace/sample_app/app/controllers/password_resets_controller.rb	/^  def edit$/;"	f	class:PasswordResetsController
 edit	/Users/stefanliu/workspace/sample_app/app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
+edit	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/widgets_controller.rb	/^  def edit$/;"	f	class:WidgetsController
 edit	app/controllers/account_activations_controller.rb	/^  def edit$/;"	f	class:AccountActivationsController
 edit	app/controllers/password_resets_controller.rb	/^  def edit$/;"	f	class:PasswordResetsController
 edit	app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
+edit	ruby-getting-started/app/controllers/widgets_controller.rb	/^  def edit$/;"	f	class:WidgetsController
 environment.rb	/Users/stefanliu/workspace/sample_app/config/environment.rb	1;"	F
+environment.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/environment.rb	1;"	F
 environment.rb	config/environment.rb	1;"	F
+environment.rb	ruby-getting-started/config/environment.rb	1;"	F
 filter_parameter_logging.rb	/Users/stefanliu/workspace/sample_app/config/initializers/filter_parameter_logging.rb	1;"	F
+filter_parameter_logging.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/initializers/filter_parameter_logging.rb	1;"	F
 filter_parameter_logging.rb	config/initializers/filter_parameter_logging.rb	1;"	F
+filter_parameter_logging.rb	ruby-getting-started/config/initializers/filter_parameter_logging.rb	1;"	F
 forget	/Users/stefanliu/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def forget(user)$/;"	f	class:SessionsHelper
 forget	/Users/stefanliu/workspace/sample_app/app/models/user.rb	/^  def forget$/;"	f	class:User
 forget	app/helpers/sessions_helper.rb	/^  def forget(user)$/;"	f	class:SessionsHelper
 forget	app/models/user.rb	/^  def forget$/;"	f	class:User
 full_title	/Users/stefanliu/workspace/sample_app/app/helpers/application_helper.rb	/^  def full_title(page_title = '')$/;"	f	class:ApplicationHelper
 full_title	app/helpers/application_helper.rb	/^  def full_title(page_title = '')$/;"	f	class:ApplicationHelper
+get_user	/Users/stefanliu/workspace/sample_app/app/controllers/password_resets_controller.rb	/^    def get_user$/;"	f	class:PasswordResetsController
+get_user	app/controllers/password_resets_controller.rb	/^    def get_user$/;"	f	class:PasswordResetsController
 gravatar_for	/Users/stefanliu/workspace/sample_app/app/helpers/users_helper.rb	/^  def gravatar_for(user,option = {size: 80})$/;"	f	class:UsersHelper
 gravatar_for	app/helpers/users_helper.rb	/^  def gravatar_for(user,option = {size: 80})$/;"	f	class:UsersHelper
 help	/Users/stefanliu/workspace/sample_app/app/controllers/static_pages_controller.rb	/^  def help$/;"	f	class:StaticPagesController
@@ -189,9 +265,15 @@ help	app/controllers/static_pages_controller.rb	/^  def help$/;"	f	class:StaticP
 home	/Users/stefanliu/workspace/sample_app/app/controllers/static_pages_controller.rb	/^  def home$/;"	f	class:StaticPagesController
 home	app/controllers/static_pages_controller.rb	/^  def home$/;"	f	class:StaticPagesController
 index	/Users/stefanliu/workspace/sample_app/app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+index	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/welcome_controller.rb	/^  def index$/;"	f	class:WelcomeController
+index	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/widgets_controller.rb	/^  def index$/;"	f	class:WidgetsController
 index	app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+index	ruby-getting-started/app/controllers/welcome_controller.rb	/^  def index$/;"	f	class:WelcomeController
+index	ruby-getting-started/app/controllers/widgets_controller.rb	/^  def index$/;"	f	class:WidgetsController
 inflections.rb	/Users/stefanliu/workspace/sample_app/config/initializers/inflections.rb	1;"	F
+inflections.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/initializers/inflections.rb	1;"	F
 inflections.rb	config/initializers/inflections.rb	1;"	F
+inflections.rb	ruby-getting-started/config/initializers/inflections.rb	1;"	F
 is_logged_in?	/Users/stefanliu/workspace/sample_app/test/test_helper.rb	/^  def is_logged_in?$/;"	f	class:ActiveSupport
 is_logged_in?	test/test_helper.rb	/^  def is_logged_in?$/;"	f	class:ActiveSupport
 log_in	/Users/stefanliu/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def log_in(user)$/;"	f	class:SessionsHelper
@@ -203,31 +285,45 @@ logged_in?	app/helpers/sessions_helper.rb	/^  def logged_in?$/;"	f	class:Session
 logged_in_user	/Users/stefanliu/workspace/sample_app/app/controllers/users_controller.rb	/^  def logged_in_user$/;"	f	class:UsersController
 logged_in_user	app/controllers/users_controller.rb	/^  def logged_in_user$/;"	f	class:UsersController
 mime_types.rb	/Users/stefanliu/workspace/sample_app/config/initializers/mime_types.rb	1;"	F
+mime_types.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/initializers/mime_types.rb	1;"	F
 mime_types.rb	config/initializers/mime_types.rb	1;"	F
+mime_types.rb	ruby-getting-started/config/initializers/mime_types.rb	1;"	F
 new	/Users/stefanliu/workspace/sample_app/app/controllers/password_resets_controller.rb	/^  def new$/;"	f	class:PasswordResetsController
 new	/Users/stefanliu/workspace/sample_app/app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
 new	/Users/stefanliu/workspace/sample_app/app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+new	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/widgets_controller.rb	/^  def new$/;"	f	class:WidgetsController
 new	app/controllers/password_resets_controller.rb	/^  def new$/;"	f	class:PasswordResetsController
 new	app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
 new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+new	ruby-getting-started/app/controllers/widgets_controller.rb	/^  def new$/;"	f	class:WidgetsController
 new_token	/Users/stefanliu/workspace/sample_app/app/models/user.rb	/^  def User.new_token$/;"	F	class:User
 new_token	app/models/user.rb	/^  def User.new_token$/;"	F	class:User
 password_reset	/Users/stefanliu/workspace/sample_app/app/mailers/user_mailer.rb	/^  def password_reset(user)$/;"	f	class:UserMailer
 password_reset	/Users/stefanliu/workspace/sample_app/test/mailers/previews/user_mailer_preview.rb	/^  def password_reset$/;"	f	class:UserMailerPreview
 password_reset	app/mailers/user_mailer.rb	/^  def password_reset(user)$/;"	f	class:UserMailer
 password_reset	test/mailers/previews/user_mailer_preview.rb	/^  def password_reset$/;"	f	class:UserMailerPreview
+password_reset_expired?	/Users/stefanliu/workspace/sample_app/app/models/user.rb	/^  def password_reset_expired?$/;"	f	class:User
+password_reset_expired?	app/models/user.rb	/^  def password_reset_expired?$/;"	f	class:User
 password_resets_controller.rb	/Users/stefanliu/workspace/sample_app/app/controllers/password_resets_controller.rb	1;"	F
 password_resets_controller.rb	app/controllers/password_resets_controller.rb	1;"	F
 password_resets_helper.rb	/Users/stefanliu/workspace/sample_app/app/helpers/password_resets_helper.rb	1;"	F
 password_resets_helper.rb	app/helpers/password_resets_helper.rb	1;"	F
 production.rb	/Users/stefanliu/workspace/sample_app/config/environments/production.rb	1;"	F
+production.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/environments/production.rb	1;"	F
 production.rb	config/environments/production.rb	1;"	F
+production.rb	ruby-getting-started/config/environments/production.rb	1;"	F
 puma.rb	/Users/stefanliu/workspace/sample_app/config/puma.rb	1;"	F
+puma.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/puma.rb	1;"	F
 puma.rb	config/puma.rb	1;"	F
+puma.rb	ruby-getting-started/config/puma.rb	1;"	F
 rails	/Users/stefanliu/workspace/sample_app/bin/rails	1;"	F
+rails	/Users/stefanliu/workspace/sample_app/ruby-getting-started/bin/rails	1;"	F
 rails	bin/rails	1;"	F
+rails	ruby-getting-started/bin/rails	1;"	F
 rake	/Users/stefanliu/workspace/sample_app/bin/rake	1;"	F
+rake	/Users/stefanliu/workspace/sample_app/ruby-getting-started/bin/rake	1;"	F
 rake	bin/rake	1;"	F
+rake	ruby-getting-started/bin/rake	1;"	F
 redirect_back_or	/Users/stefanliu/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def redirect_back_or(default)$/;"	f	class:SessionsHelper
 redirect_back_or	app/helpers/sessions_helper.rb	/^  def redirect_back_or(default)$/;"	f	class:SessionsHelper
 remember	/Users/stefanliu/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def remember(user)$/;"	f	class:SessionsHelper
@@ -235,23 +331,33 @@ remember	/Users/stefanliu/workspace/sample_app/app/models/user.rb	/^  def rememb
 remember	app/helpers/sessions_helper.rb	/^  def remember(user)$/;"	f	class:SessionsHelper
 remember	app/models/user.rb	/^  def remember$/;"	f	class:User
 routes.rb	/Users/stefanliu/workspace/sample_app/config/routes.rb	1;"	F
+routes.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/routes.rb	1;"	F
 routes.rb	config/routes.rb	1;"	F
+routes.rb	ruby-getting-started/config/routes.rb	1;"	F
 schema.rb	/Users/stefanliu/workspace/sample_app/db/schema.rb	1;"	F
+schema.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/db/schema.rb	1;"	F
 schema.rb	db/schema.rb	1;"	F
+schema.rb	ruby-getting-started/db/schema.rb	1;"	F
 seeds.rb	/Users/stefanliu/workspace/sample_app/db/seeds.rb	1;"	F
+seeds.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/db/seeds.rb	1;"	F
 seeds.rb	db/seeds.rb	1;"	F
+seeds.rb	ruby-getting-started/db/seeds.rb	1;"	F
 send_activation_email	/Users/stefanliu/workspace/sample_app/app/models/user.rb	/^  def send_activation_email$/;"	f	class:User
 send_activation_email	app/models/user.rb	/^  def send_activation_email$/;"	f	class:User
 send_password_reset_email	/Users/stefanliu/workspace/sample_app/app/models/user.rb	/^  def send_password_reset_email$/;"	f	class:User
 send_password_reset_email	app/models/user.rb	/^  def send_password_reset_email$/;"	f	class:User
 session_store.rb	/Users/stefanliu/workspace/sample_app/config/initializers/session_store.rb	1;"	F
+session_store.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/initializers/session_store.rb	1;"	F
 session_store.rb	config/initializers/session_store.rb	1;"	F
+session_store.rb	ruby-getting-started/config/initializers/session_store.rb	1;"	F
 sessions_controller.rb	/Users/stefanliu/workspace/sample_app/app/controllers/sessions_controller.rb	1;"	F
 sessions_controller.rb	app/controllers/sessions_controller.rb	1;"	F
 sessions_controller_test.rb	/Users/stefanliu/workspace/sample_app/test/controllers/sessions_controller_test.rb	1;"	F
 sessions_controller_test.rb	test/controllers/sessions_controller_test.rb	1;"	F
 sessions_helper.rb	/Users/stefanliu/workspace/sample_app/app/helpers/sessions_helper.rb	1;"	F
 sessions_helper.rb	app/helpers/sessions_helper.rb	1;"	F
+set_widget	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/widgets_controller.rb	/^    def set_widget$/;"	f	class:WidgetsController
+set_widget	ruby-getting-started/app/controllers/widgets_controller.rb	/^    def set_widget$/;"	f	class:WidgetsController
 setup	/Users/stefanliu/workspace/sample_app/bin/setup	1;"	F
 setup	/Users/stefanliu/workspace/sample_app/test/integration/users_login_test.rb	/^  def setup$/;"	f	class:UsersLoginTest
 setup	/Users/stefanliu/workspace/sample_app/test/integration/users_signup_test.rb	/^  def setup$/;"	f	class:UsersSignupTest
@@ -261,9 +367,13 @@ setup	test/integration/users_login_test.rb	/^  def setup$/;"	f	class:UsersLoginT
 setup	test/integration/users_signup_test.rb	/^  def setup$/;"	f	class:UsersSignupTest
 setup	test/models/user_test.rb	/^  def setup$/;"	f	class:UserTest
 show	/Users/stefanliu/workspace/sample_app/app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+show	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/widgets_controller.rb	/^  def show$/;"	f	class:WidgetsController
 show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+show	ruby-getting-started/app/controllers/widgets_controller.rb	/^  def show$/;"	f	class:WidgetsController
 site_layout_test.rb	/Users/stefanliu/workspace/sample_app/test/integration/site_layout_test.rb	1;"	F
 site_layout_test.rb	test/integration/site_layout_test.rb	1;"	F
+spring	/Users/stefanliu/workspace/sample_app/ruby-getting-started/bin/spring	1;"	F
+spring	ruby-getting-started/bin/spring	1;"	F
 static_pages_controller.rb	/Users/stefanliu/workspace/sample_app/app/controllers/static_pages_controller.rb	1;"	F
 static_pages_controller.rb	app/controllers/static_pages_controller.rb	1;"	F
 static_pages_controller_test.rb	/Users/stefanliu/workspace/sample_app/test/controllers/static_pages_controller_test.rb	1;"	F
@@ -273,13 +383,21 @@ static_pages_helper.rb	app/helpers/static_pages_helper.rb	1;"	F
 store_location	/Users/stefanliu/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def store_location$/;"	f	class:SessionsHelper
 store_location	app/helpers/sessions_helper.rb	/^  def store_location$/;"	f	class:SessionsHelper
 test.rb	/Users/stefanliu/workspace/sample_app/config/environments/test.rb	1;"	F
+test.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/environments/test.rb	1;"	F
 test.rb	config/environments/test.rb	1;"	F
+test.rb	ruby-getting-started/config/environments/test.rb	1;"	F
+test_helper.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/test/test_helper.rb	1;"	F
 test_helper.rb	/Users/stefanliu/workspace/sample_app/test/test_helper.rb	1;"	F
+test_helper.rb	ruby-getting-started/test/test_helper.rb	1;"	F
 test_helper.rb	test/test_helper.rb	1;"	F
 to_time_preserves_timezone.rb	/Users/stefanliu/workspace/sample_app/config/initializers/to_time_preserves_timezone.rb	1;"	F
 to_time_preserves_timezone.rb	config/initializers/to_time_preserves_timezone.rb	1;"	F
+update	/Users/stefanliu/workspace/sample_app/app/controllers/password_resets_controller.rb	/^  def update$/;"	f	class:PasswordResetsController
 update	/Users/stefanliu/workspace/sample_app/app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
+update	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/widgets_controller.rb	/^  def update$/;"	f	class:WidgetsController
+update	app/controllers/password_resets_controller.rb	/^  def update$/;"	f	class:PasswordResetsController
 update	app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
+update	ruby-getting-started/app/controllers/widgets_controller.rb	/^  def update$/;"	f	class:WidgetsController
 user.rb	/Users/stefanliu/workspace/sample_app/app/models/user.rb	1;"	F
 user.rb	app/models/user.rb	1;"	F
 user_mailer.rb	/Users/stefanliu/workspace/sample_app/app/mailers/user_mailer.rb	1;"	F
@@ -288,7 +406,9 @@ user_mailer_preview.rb	/Users/stefanliu/workspace/sample_app/test/mailers/previe
 user_mailer_preview.rb	test/mailers/previews/user_mailer_preview.rb	1;"	F
 user_mailer_test.rb	/Users/stefanliu/workspace/sample_app/test/mailers/user_mailer_test.rb	1;"	F
 user_mailer_test.rb	test/mailers/user_mailer_test.rb	1;"	F
+user_params	/Users/stefanliu/workspace/sample_app/app/controllers/password_resets_controller.rb	/^    def user_params$/;"	f	class:PasswordResetsController
 user_params	/Users/stefanliu/workspace/sample_app/app/controllers/users_controller.rb	/^  def user_params$/;"	f	class:UsersController
+user_params	app/controllers/password_resets_controller.rb	/^    def user_params$/;"	f	class:PasswordResetsController
 user_params	app/controllers/users_controller.rb	/^  def user_params$/;"	f	class:UsersController
 user_test.rb	/Users/stefanliu/workspace/sample_app/test/models/user_test.rb	1;"	F
 user_test.rb	test/models/user_test.rb	1;"	F
@@ -302,5 +422,31 @@ users_login_test.rb	/Users/stefanliu/workspace/sample_app/test/integration/users
 users_login_test.rb	test/integration/users_login_test.rb	1;"	F
 users_signup_test.rb	/Users/stefanliu/workspace/sample_app/test/integration/users_signup_test.rb	1;"	F
 users_signup_test.rb	test/integration/users_signup_test.rb	1;"	F
+valid_user	/Users/stefanliu/workspace/sample_app/app/controllers/password_resets_controller.rb	/^    def valid_user$/;"	f	class:PasswordResetsController
+valid_user	app/controllers/password_resets_controller.rb	/^    def valid_user$/;"	f	class:PasswordResetsController
+welcome_controller.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/welcome_controller.rb	1;"	F
+welcome_controller.rb	ruby-getting-started/app/controllers/welcome_controller.rb	1;"	F
+welcome_controller_test.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/test/controllers/welcome_controller_test.rb	1;"	F
+welcome_controller_test.rb	ruby-getting-started/test/controllers/welcome_controller_test.rb	1;"	F
+welcome_helper.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/helpers/welcome_helper.rb	1;"	F
+welcome_helper.rb	ruby-getting-started/app/helpers/welcome_helper.rb	1;"	F
+welcome_helper_test.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/test/helpers/welcome_helper_test.rb	1;"	F
+welcome_helper_test.rb	ruby-getting-started/test/helpers/welcome_helper_test.rb	1;"	F
+widget.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/models/widget.rb	1;"	F
+widget.rb	ruby-getting-started/app/models/widget.rb	1;"	F
+widget_params	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/widgets_controller.rb	/^    def widget_params$/;"	f	class:WidgetsController
+widget_params	ruby-getting-started/app/controllers/widgets_controller.rb	/^    def widget_params$/;"	f	class:WidgetsController
+widget_test.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/test/models/widget_test.rb	1;"	F
+widget_test.rb	ruby-getting-started/test/models/widget_test.rb	1;"	F
+widgets_controller.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/controllers/widgets_controller.rb	1;"	F
+widgets_controller.rb	ruby-getting-started/app/controllers/widgets_controller.rb	1;"	F
+widgets_controller_test.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/test/controllers/widgets_controller_test.rb	1;"	F
+widgets_controller_test.rb	ruby-getting-started/test/controllers/widgets_controller_test.rb	1;"	F
+widgets_helper.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/app/helpers/widgets_helper.rb	1;"	F
+widgets_helper.rb	ruby-getting-started/app/helpers/widgets_helper.rb	1;"	F
+widgets_helper_test.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/test/helpers/widgets_helper_test.rb	1;"	F
+widgets_helper_test.rb	ruby-getting-started/test/helpers/widgets_helper_test.rb	1;"	F
 wrap_parameters.rb	/Users/stefanliu/workspace/sample_app/config/initializers/wrap_parameters.rb	1;"	F
+wrap_parameters.rb	/Users/stefanliu/workspace/sample_app/ruby-getting-started/config/initializers/wrap_parameters.rb	1;"	F
 wrap_parameters.rb	config/initializers/wrap_parameters.rb	1;"	F
+wrap_parameters.rb	ruby-getting-started/config/initializers/wrap_parameters.rb	1;"	F

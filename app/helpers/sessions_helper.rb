@@ -18,7 +18,7 @@ module SessionsHelper
         log_in user
         @current_user = user
       end
-   end
+    end
   end
 
   def logged_in?
@@ -48,5 +48,14 @@ module SessionsHelper
 
   def store_location
     session[:forwarding_url] = request.url if request.get?
+  end
+
+  def like_session?
+    if session[:like_flag] != "T" || params[:micropost].nil?
+      session[:flag] = 'f'
+      return false
+    else
+      return true
+    end
   end
 end
