@@ -8,7 +8,6 @@ class Micropost < ActiveRecord::Base
   validates :content, presence: true, length: { maximum: 140 }
   validate  :picture_size
   # validates :users.liked_micropost_id, presence: false
-  #
 
   def like_status(user)
     if !liking?(user)
@@ -17,7 +16,7 @@ class Micropost < ActiveRecord::Base
       return "unlike"
     end
   end
- 
+
   def like(user)
     miclikers.create(liker_id: user.id)
   end
@@ -38,13 +37,29 @@ class Micropost < ActiveRecord::Base
     end
   end
 
-  def comment_create(user,content)
-    miccomments.create(commenter_id: user.id, content: content)
+  def comment_create(user_id,content,comment_to_id)
+    miccomments.create(commenter_id: user_id, content: content, comment_to: comment_to_id)
   end
 
   #评论时间也是主键，所以只能用 id 删除
   def comment_destroy(miccomment)
     miccomments.find_by(id: miccomment.id).destroy
+  end
+
+  def comment_count(micropost=self,sum=0)
+    if micropost.class.name == "Micropost" && micropost.miccomments.any?
+      sum+=micropost.miccomments.count
+      micropost.miccomments.each  do |comment|
+        sum+=comment_count(comment)
+      end
+    end
+    if micropost.class.name=="Miccomment" && micropost.child_comments.any?
+      sum+=micropost.child_comments.count
+      micropost.child_comments.each do |comment|
+        sum+=comment_count(comment)
+      end
+    end
+    return sum
   end
 
   private

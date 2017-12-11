@@ -1,0 +1,2 @@
+module MiccommentHelper
+end

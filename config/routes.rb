@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
 
+  get 'miccomment/create'
+
+  get 'miccomment/destroy'
+
+  get 'miccomment_controller/create'
+
+  get 'miccomment_controller/destroy'
+
   get 'password_resets/new'
 
   get 'password_resets/edit'
@@ -25,8 +33,10 @@ Rails.application.routes.draw do
   resources   :password_resets,     only: [:new, :create, :edit, :update]
   resources   :microposts,          only: [:create, :destroy]
   resources   :relationships,       only: [:create, :destroy]
+  resources   :miccomments,         only: [:create, :destroy]
 
   get 'try' =>'users#try'
   get 'micropostdetail' => 'users#micropost'
+  get 'sss' =>'users#sss'
 
 end
