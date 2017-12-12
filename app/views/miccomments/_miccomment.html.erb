@@ -1,0 +1,20 @@
+<p>
+<% if miccomment.to_comment.nil? || miccomment.to_comment==0 %>
+  <%= link_to miccomment.user.name, miccomment.user %>to
+  <%= link_to miccomment.micropost.user.name, miccomment.micropost.user %>
+<% else %>
+  &emsp;<%= link_to miccomment.user.name, miccomment.user %>to
+  <%= link_to miccomment.to_comment.user.name, miccomment.to_comment.user %>
+<% end %>
+<%= miccomment.content %>
+</p>
+<span class="like">
+  <%= render partial: 'button' ,locals: { micropost_id: miccomment.micropost.id ,comment_to_id: miccomment.id }%>
+  <% if current_user == miccomment.user || current_user == miccomment.micropost.user %>
+    <%= link_to "delete" , miccomment, method: :delete, data: { confirm: "you sure?" } %>
+  <% end %>
+</span>
+<% if miccomment.child_comments.any? %>
+  <% @miccomments = miccomment.child_comments %>
+  <%= render @miccomments %>
+<% end %>

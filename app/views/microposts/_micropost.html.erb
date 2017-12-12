@@ -1,4 +1,4 @@
-<li id="micropost-<%= micropost.id %>">
+<li>
   <%= link_to gravatar_for(micropost.user, size: 50), micropost.user %>
   <span class="user"><%= link_to micropost.user.name, micropost.user %></span>
   <span class="content">
@@ -9,13 +9,21 @@
     Posted <%= time_ago_in_words(micropost.created_at) %> ago.
     <% if current_user?(micropost.user) %>
       <%= link_to "delete", micropost, method: :delete,
-                                       data: { confirm: "You sure?" } %>
+        data: { confirm: "You sure?" } %>
     <% end %>
   </span>
   <span class="like">
-    <% session[:like_flag] = "T" %>
-    <% params[:micropost]=micropost.id %> # 用 session 试试
-    <%= link_to micropost.like_status(current_user), micropost: micropost.id, user: current_user.id %>likers<%= micropost.miclikers.count %><%= render 'button'%><%= micropost.miccomments.count %>
+    <% session[:like_flag] ="T" %>
+    <%= link_to micropost.like_status(current_user), micropost: micropost.id, user: current_user.id %>likers
+    <%= micropost.miclikers.count %><%= render partial: 'button' ,locals: { micropost_id: micropost.id ,comment_to_id: 0}%><%= micropost.comment_count(micropost) %>
   </span>
+  <% @miccomments = micropost.miccomments %>
+  <% if micropost.miccomments.any? %>
+    <% micropost.miccomments.each do |comment| %>
+      <% if comment.comment_to == 0 || comment.comment_to.nil? %>
+        <%= render comment %>
+      <% end %>
+    <% end %>
+  <% end %>
 </li>
 

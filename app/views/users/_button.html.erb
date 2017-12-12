@@ -36,7 +36,7 @@ $(window).resize(function () {
     <%= form_for(@miccomment) do |f| %>
       <%= f.text_field :content, class:'form-control' %>
       <%= f.hidden_field :micropost_id, id:"hidden_micropost",value: micropost_id %>
-      <%= f.hidden_field :comment_to, id:"hidden_miccomment",value: comment_to_id %>
+      <%= f.hidden_field :comment_to,   id:"hidden_miccomment", value: comment_to_id %>
       <%= f.hidden_field :commenter_id, value: current_user.id %>
       <%= f.submit "submit" %>
     <% end %>

@@ -14,17 +14,16 @@ class UsersController < ApplicationController
       like
       session[:like_flag] = 'f'
     end
-    tocomment
   end
 
   def show
     @user = User.find(params[:id])
     @microposts = @user.microposts.paginate(page: params[:page])
+    @miccomment = Miccomment.new
     if like_session?
       like
       session[:like_flag] = 'f'
     end
-    tocomment
   end
 
   def create
@@ -53,7 +52,7 @@ class UsersController < ApplicationController
 
   def correct_user
     @user = User.find(params[:id])
-    redirect_to(root_url) unless current_user?(@user)  
+    redirect_to(root_url) unless current_user?(@user)
   end
 
   def destroy
@@ -76,11 +75,8 @@ class UsersController < ApplicationController
     render    'show_follow'
   end
 
-  def tocomment
-    if session[:comment_flag] =='T' && !params[:micropost].nil?
-      comment
-      session[:comment_flag] = 'f'
-    end
+  def try
+    @micropost = Micropost.find(241)
   end
 
   private
@@ -94,8 +90,8 @@ class UsersController < ApplicationController
   end
 
   def comment
-      micropost=Micropost.find_by(id: params[:micropost])
-      micropost.comment_create(current_user,params[:comment])
+      micropost=Micropost.find_by(id: session[:micropost])
+      micropost.comment_create(current_user,session[:comment])
   end
 
 end
