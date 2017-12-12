@@ -14,9 +14,7 @@
     <%= link_to "delete" , miccomment, method: :delete, data: { confirm: "you sure?" } %>
   <% end %>
 </span>
-<p>
 <% if miccomment.child_comments.any? %>
   <% @miccomments = miccomment.child_comments %>
   <%= render @miccomments %>
 <% end %>
-</p>
